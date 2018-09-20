@@ -24,5 +24,6 @@ end
   sentence = self.split(".", "?", "!")
     sentence.count 
   binding.pry
+  puts "Hello"
   end
 end
