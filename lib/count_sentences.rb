@@ -26,5 +26,4 @@ end
   binding.pry
   puts "Hello"
   end
-  count_sentences
 end
