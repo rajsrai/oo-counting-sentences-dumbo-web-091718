@@ -23,8 +23,5 @@ end
   def count_sentences
   sentence = self.split(".", "?", "!")
     sentence.count 
-  binding.pry
-  puts "Hello"
   end
-  count_sentences
 end
