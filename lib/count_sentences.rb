@@ -20,7 +20,7 @@ end
   end
 end
 
-  def count_sentences
+  def count_sentences(sentence)
   sentence = self.split(".", "?", "!")
     sentence.count 
   binding.pry
