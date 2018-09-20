@@ -22,6 +22,6 @@ end
 
   def count_sentences
   sentence = self.split(/\.|\?|\!/)
-    sentence.delete_if {|w| w.size < 2}.size
+    sentence.delete_if {|x| x.size < 2}.size
   end
 end
